@@ -6,13 +6,13 @@
 	</head>
 	<body>
 		<nav>
-			<?php include 'menu.php';?>
+			<?php include "menu.php";?>
 		</nav>
 		<div class="container">
-			<div class="heading">
-				<h1>Ray Bjorkman</h1>
-			</div>
-			<p>Just a YUF trying to make it in this crazy world.</p>
+    		<div class="heading">
+      			<h1>Projects</h1>
+    		</div>
+    		<p>But if I were a YUF would I have done these things?</p>
 		</div>
 	</body>
 </html>
