@@ -1,32 +1,264 @@
 body {
-  background-color: #E7E7EF;
-  font-family: "Helvetica", "Calibri", "Sans-Serif";
-  text-align: right; }
-  body nav {
-    background: #F0F0F0;
-    border: 1px solid #999;
-    vertical-align: middle; }
-    body nav ul {
-      padding: 0px;
-      font-weight: bold;
-      margin-right: 10%; }
-      body nav ul li {
-        display: inline;
-        margin-right: 15px;
-        margin-left: 15px; }
-  body .container {
-    margin: 60px auto; }
-    body .container h1, body .container p {
-      margin-right: 10%; }
-    body .container .heading {
-      border-bottom: 1px solid #999; }
-  body h1 {
-    font-size: 40px;
-    line-height: 0px; }
-  body p {
-    font-size: 20px; }
+  background-color: white;
+  font-family: "Calibri", "Helvetica", "Sans-Serif"; }
+  body .framework {
+    text-align: right; }
+    body .framework nav {
+      background: #F0F0F0;
+      border: 1px solid #999;
+      vertical-align: middle; }
+      body .framework nav ul {
+        padding: 0px;
+        margin-right: 10%; }
+        body .framework nav ul li {
+          display: inline;
+          margin-left: 50px; }
+    body .framework .roof {
+      margin: 60px 10% 20px 10%; }
+      body .framework .roof .heading {
+        border-bottom: 1px solid #999; }
+    body .framework .button {
+      background-color: #F0F0F0;
+      border: 1px solid #999;
+      padding: 15px;
+      width: 100px;
+      float: right;
+      margin: 20px 0px; }
+    body .framework h1 {
+      font-size: 40px;
+      line-height: 0px; }
+    body .framework p {
+      font-size: 20px; }
+  body .content {
+    width: 80%;
+    margin: 0px auto; }
+    body .content .resume {
+      margin: 0px auto;
+      width: 740px;
+      padding-left: 50px;
+      white-space: nowrap;
+      overflow: hidden; }
+    body .content img {
+      max-height: 400px;
+      width: auto;
+      border: 1px solid #999; }
+    body .content table {
+      margin: 0px auto; }
+      body .content table td {
+        padding: 0px 10px 15px 10px; }
+      body .content table img {
+        max-height: 180px;
+        width: auto;
+        border: 1px solid #999; }
   body a {
     text-decoration: none;
+    font-weight: bold;
     color: #999; }
   body a:hover {
     text-decoration: underline; }
+  body .resume {
+    /* Style Definitions */
+    /* Page Definitions */
+    /* List Definitions */ }
+@font-face {
+  body .resume {
+    font-family: Wingdings;
+    panose-1: 5 0 0 0 0 0 0 0 0 0; } }
+@font-face {
+  body .resume {
+    font-family: "Cambria Math";
+    panose-1: 2 4 5 3 5 4 6 3 2 4; } }
+@font-face {
+  body .resume {
+    font-family: Calibri;
+    panose-1: 2 15 5 2 2 2 4 3 2 4; } }
+@font-face {
+  body .resume {
+    font-family: Tahoma;
+    panose-1: 2 11 6 4 3 5 4 4 2 4; } }
+@font-face {
+  body .resume {
+    font-family: "Bookman Old Style";
+    panose-1: 2 5 6 4 5 5 5 2 2 4; } }
+@font-face {
+  body .resume {
+    font-family: Garamond;
+    panose-1: 2 2 4 4 3 3 1 1 8 3; } }
+    body .resume p.MsoNormal, body .resume li.MsoNormal, body .resume div.MsoNormal {
+      margin: 0in;
+      margin-bottom: .0001pt;
+      font-size: 12.0pt;
+      font-family: "Times New Roman","serif"; }
+    body .resume h1 {
+      margin: 0in;
+      margin-bottom: .0001pt;
+      text-align: center;
+      page-break-after: avoid;
+      font-size: 10.0pt;
+      font-family: "Arial","sans-serif";
+      font-weight: bold; }
+    body .resume h2 {
+      margin: 0in;
+      margin-bottom: .0001pt;
+      page-break-after: avoid;
+      font-size: 12.0pt;
+      font-family: "Times New Roman","serif";
+      font-weight: bold; }
+    body .resume h3 {
+      margin: 0in;
+      margin-bottom: .0001pt;
+      text-align: center;
+      page-break-after: avoid;
+      font-size: 12.0pt;
+      font-family: "Times New Roman","serif";
+      font-weight: bold;
+      font-style: italic; }
+    body .resume h4 {
+      margin: 0in;
+      margin-bottom: .0001pt;
+      text-align: center;
+      page-break-after: avoid;
+      font-size: 10.0pt;
+      font-family: "Arial","sans-serif";
+      font-weight: bold;
+      text-decoration: underline; }
+    body .resume p.MsoCommentText, body .resume li.MsoCommentText, body .resume div.MsoCommentText {
+      mso-style-link: "Comment Text Char";
+      margin: 0in;
+      margin-bottom: .0001pt;
+      font-size: 10.0pt;
+      font-family: "Times New Roman","serif"; }
+    body .resume p.MsoHeader, body .resume li.MsoHeader, body .resume div.MsoHeader {
+      mso-style-link: "Header Char";
+      margin: 0in;
+      margin-bottom: .0001pt;
+      font-size: 12.0pt;
+      font-family: "Times New Roman","serif"; }
+    body .resume p.MsoFooter, body .resume li.MsoFooter, body .resume div.MsoFooter {
+      mso-style-link: "Footer Char";
+      margin: 0in;
+      margin-bottom: .0001pt;
+      font-size: 12.0pt;
+      font-family: "Times New Roman","serif"; }
+    body .resume p.MsoTitle, body .resume li.MsoTitle, body .resume div.MsoTitle {
+      margin: 0in;
+      margin-bottom: .0001pt;
+      text-align: center;
+      font-size: 16.0pt;
+      font-family: "Bookman Old Style","serif"; }
+    body .resume p.MsoBodyText, body .resume li.MsoBodyText, body .resume div.MsoBodyText {
+      margin: 0in;
+      margin-bottom: .0001pt;
+      text-align: center;
+      font-size: 11.5pt;
+      font-family: "Times New Roman","serif"; }
+    body .resume p.MsoBodyText2, body .resume li.MsoBodyText2, body .resume div.MsoBodyText2 {
+      margin: 0in;
+      margin-bottom: .0001pt;
+      font-size: 11.5pt;
+      font-family: "Times New Roman","serif"; }
+    body .resume p.MsoBodyText3, body .resume li.MsoBodyText3, body .resume div.MsoBodyText3 {
+      margin-top: 0in;
+      margin-right: -9.0pt;
+      margin-bottom: 0in;
+      margin-left: 0in;
+      margin-bottom: .0001pt;
+      text-align: justify;
+      text-autospace: none;
+      font-size: 11.0pt;
+      font-family: "Times New Roman","serif"; }
+    body .resume a:link, body .resume span.MsoHyperlink {
+      color: blue;
+      text-decoration: underline; }
+    body .resume a:visited, body .resume span.MsoHyperlinkFollowed {
+      color: purple;
+      text-decoration: underline; }
+    body .resume p {
+      margin-right: 0in;
+      margin-left: 0in;
+      font-size: 12.0pt;
+      font-family: "Times New Roman","serif"; }
+    body .resume p.MsoCommentSubject, body .resume li.MsoCommentSubject, body .resume div.MsoCommentSubject {
+      mso-style-link: "Comment Subject Char";
+      margin: 0in;
+      margin-bottom: .0001pt;
+      font-size: 10.0pt;
+      font-family: "Times New Roman","serif";
+      font-weight: bold; }
+    body .resume p.MsoAcetate, body .resume li.MsoAcetate, body .resume div.MsoAcetate {
+      margin: 0in;
+      margin-bottom: .0001pt;
+      font-size: 8.0pt;
+      font-family: "Tahoma","sans-serif"; }
+    body .resume p.CompanyName, body .resume li.CompanyName, body .resume div.CompanyName {
+      mso-style-name: "Company Name";
+      margin-top: 11.0pt;
+      margin-right: 0in;
+      margin-bottom: 0in;
+      margin-left: 0in;
+      margin-bottom: .0001pt;
+      line-height: 11.0pt;
+      font-size: 11.0pt;
+      font-family: "Garamond","serif"; }
+    body .resume p.Achievement, body .resume li.Achievement, body .resume div.Achievement {
+      mso-style-name: Achievement;
+      margin-top: 0in;
+      margin-right: 0in;
+      margin-bottom: 3.0pt;
+      margin-left: .5in;
+      text-align: justify;
+      text-indent: -.25in;
+      line-height: 12.0pt;
+      font-size: 11.0pt;
+      font-family: "Garamond","serif"; }
+    body .resume span.HeaderChar {
+      mso-style-name: "Header Char";
+      mso-style-link: Header; }
+    body .resume span.FooterChar {
+      mso-style-name: "Footer Char";
+      mso-style-link: Footer; }
+    body .resume span.CommentTextChar {
+      mso-style-name: "Comment Text Char";
+      mso-style-link: "Comment Text"; }
+    body .resume span.CommentSubjectChar {
+      mso-style-name: "Comment Subject Char";
+      mso-style-link: "Comment Subject";
+      font-weight: bold; }
+@page WordSection1 {
+  body .resume {
+    size: 8.5in 11.0in;
+    margin: .4in .4in .5in .4in;
+    border: dotted white 1.0pt;
+    padding: 24.0pt 24.0pt 24.0pt 24.0pt; } }
+    body .resume div.WordSection1 {
+      page: WordSection1; }
+@page WordSection2 {
+  body .resume {
+    size: 8.5in 11.0in;
+    margin: .4in .4in .5in .4in;
+    border: dotted white 1.0pt;
+    padding: 24.0pt 24.0pt 24.0pt 24.0pt; } }
+    body .resume div.WordSection2 {
+      page: WordSection2; }
+@page WordSection3 {
+  body .resume {
+    size: 8.5in 11.0in;
+    margin: .4in .4in .5in .4in;
+    border: dotted white 1.0pt;
+    padding: 24.0pt 24.0pt 24.0pt 24.0pt; } }
+    body .resume div.WordSection3 {
+      page: WordSection3; }
+@page WordSection4 {
+  body .resume {
+    size: 8.5in 11.0in;
+    margin: .4in .4in .5in .4in;
+    border: dotted white 1.0pt;
+    padding: 24.0pt 24.0pt 24.0pt 24.0pt; } }
+    body .resume div.WordSection4 {
+      page: WordSection4; }
+    body .resume ol {
+      margin-bottom: 0in; }
+    body .resume ul {
+      margin-bottom: 0in; }
+
+/*# sourceMappingURL=main.css.map */
