@@ -1,0 +1,276 @@
+$font-stack: 'Calibri', 'Helvetica', 'Sans-Serif';
+$bg_main: white;
+$bg_secondary: #F0F0F0;
+$brd_main: #999;
+
+body {
+    background-color: $bg_main;
+    font-family: $font-stack;
+    .framework {
+        text-align: right;
+        nav {
+            background: $bg_secondary;
+            border: 1px solid $brd_main;
+            vertical-align: middle;
+            ul {
+                padding: 0px;
+                margin-right: 10%;
+                li {
+                    display: inline;
+                    margin-left: 50px;
+                }
+            }
+        }
+        .roof {
+            margin: 60px 10% 20px 10%;    
+            .heading {
+                border-bottom: 1px solid $brd_main;
+            }
+        }
+        .button {
+            background-color: $bg_secondary;
+            border: 1px solid $brd_main;
+            padding: 15px;
+            width: 100px;
+            float: right;
+            margin: 20px 0px;
+        }
+        h1 {
+            font-size: 40px;
+            line-height: 0px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .content {
+        width: 80%;
+        margin: 0px auto;
+        .resume{
+            margin: 0px auto;
+            width: 740px;
+            padding-left: 50px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        img {
+            max-height: 400px;
+            width: auto;
+            border: 1px solid $brd_main;
+        }
+        table {
+            margin: 0px auto;
+            td {
+                padding: 0px 10px 15px 10px;
+            }
+            img {
+                max-height: 180px;
+                width: auto;
+                border: 1px solid $brd_main;
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: $brd_main;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .resume{
+        @font-face
+            {font-family:Wingdings;
+            panose-1:5 0 0 0 0 0 0 0 0 0;}
+        @font-face
+            {font-family:"Cambria Math";
+            panose-1:2 4 5 3 5 4 6 3 2 4;}
+        @font-face
+            {font-family:Calibri;
+            panose-1:2 15 5 2 2 2 4 3 2 4;}
+        @font-face
+            {font-family:Tahoma;
+            panose-1:2 11 6 4 3 5 4 4 2 4;}
+        @font-face
+            {font-family:"Bookman Old Style";
+            panose-1:2 5 6 4 5 5 5 2 2 4;}
+        @font-face
+            {font-family:Garamond;
+            panose-1:2 2 4 4 3 3 1 1 8 3;}
+         /* Style Definitions */
+         p.MsoNormal, li.MsoNormal, div.MsoNormal
+            {margin:0in;
+            margin-bottom:.0001pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman","serif";}
+        h1
+            {margin:0in;
+            margin-bottom:.0001pt;
+            text-align:center;
+            page-break-after:avoid;
+            font-size:10.0pt;
+            font-family:"Arial","sans-serif";
+            font-weight:bold;}
+        h2
+            {margin:0in;
+            margin-bottom:.0001pt;
+            page-break-after:avoid;
+            font-size:12.0pt;
+            font-family:"Times New Roman","serif";
+            font-weight:bold;}
+        h3
+            {margin:0in;
+            margin-bottom:.0001pt;
+            text-align:center;
+            page-break-after:avoid;
+            font-size:12.0pt;
+            font-family:"Times New Roman","serif";
+            font-weight:bold;
+            font-style:italic;}
+        h4
+            {margin:0in;
+            margin-bottom:.0001pt;
+            text-align:center;
+            page-break-after:avoid;
+            font-size:10.0pt;
+            font-family:"Arial","sans-serif";
+            font-weight:bold;
+            text-decoration:underline;}
+        p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+            {mso-style-link:"Comment Text Char";
+            margin:0in;
+            margin-bottom:.0001pt;
+            font-size:10.0pt;
+            font-family:"Times New Roman","serif";}
+        p.MsoHeader, li.MsoHeader, div.MsoHeader
+            {mso-style-link:"Header Char";
+            margin:0in;
+            margin-bottom:.0001pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman","serif";}
+        p.MsoFooter, li.MsoFooter, div.MsoFooter
+            {mso-style-link:"Footer Char";
+            margin:0in;
+            margin-bottom:.0001pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman","serif";}
+        p.MsoTitle, li.MsoTitle, div.MsoTitle
+            {margin:0in;
+            margin-bottom:.0001pt;
+            text-align:center;
+            font-size:16.0pt;
+            font-family:"Bookman Old Style","serif";}
+        p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+            {margin:0in;
+            margin-bottom:.0001pt;
+            text-align:center;
+            font-size:11.5pt;
+            font-family:"Times New Roman","serif";}
+        p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+            {margin:0in;
+            margin-bottom:.0001pt;
+            font-size:11.5pt;
+            font-family:"Times New Roman","serif";}
+        p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+            {margin-top:0in;
+            margin-right:-9.0pt;
+            margin-bottom:0in;
+            margin-left:0in;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-autospace:none;
+            font-size:11.0pt;
+            font-family:"Times New Roman","serif";}
+        a:link, span.MsoHyperlink
+            {color:blue;
+            text-decoration:underline;}
+        a:visited, span.MsoHyperlinkFollowed
+            {color:purple;
+            text-decoration:underline;}
+        p
+            {margin-right:0in;
+            margin-left:0in;
+            font-size:12.0pt;
+            font-family:"Times New Roman","serif";}
+        p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+            {mso-style-link:"Comment Subject Char";
+            margin:0in;
+            margin-bottom:.0001pt;
+            font-size:10.0pt;
+            font-family:"Times New Roman","serif";
+            font-weight:bold;}
+        p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+            {margin:0in;
+            margin-bottom:.0001pt;
+            font-size:8.0pt;
+            font-family:"Tahoma","sans-serif";}
+        p.CompanyName, li.CompanyName, div.CompanyName
+            {mso-style-name:"Company Name";
+            margin-top:11.0pt;
+            margin-right:0in;
+            margin-bottom:0in;
+            margin-left:0in;
+            margin-bottom:.0001pt;
+            line-height:11.0pt;
+            font-size:11.0pt;
+            font-family:"Garamond","serif";}
+        p.Achievement, li.Achievement, div.Achievement
+            {mso-style-name:Achievement;
+            margin-top:0in;
+            margin-right:0in;
+            margin-bottom:3.0pt;
+            margin-left:.5in;
+            text-align:justify;
+            text-indent:-.25in;
+            line-height:12.0pt;
+            font-size:11.0pt;
+            font-family:"Garamond","serif";}
+        span.HeaderChar
+            {mso-style-name:"Header Char";
+            mso-style-link:Header;}
+        span.FooterChar
+            {mso-style-name:"Footer Char";
+            mso-style-link:Footer;}
+        span.CommentTextChar
+            {mso-style-name:"Comment Text Char";
+            mso-style-link:"Comment Text";}
+        span.CommentSubjectChar
+            {mso-style-name:"Comment Subject Char";
+            mso-style-link:"Comment Subject";
+            font-weight:bold;}
+         /* Page Definitions */
+         @page WordSection1
+            {size:8.5in 11.0in;
+            margin:.4in .4in .5in .4in;
+            border:dotted white 1.0pt;
+            padding:24.0pt 24.0pt 24.0pt 24.0pt;}
+        div.WordSection1
+            {page:WordSection1;}
+        @page WordSection2
+            {size:8.5in 11.0in;
+            margin:.4in .4in .5in .4in;
+            border:dotted white 1.0pt;
+            padding:24.0pt 24.0pt 24.0pt 24.0pt;}
+        div.WordSection2
+            {page:WordSection2;}
+        @page WordSection3
+            {size:8.5in 11.0in;
+            margin:.4in .4in .5in .4in;
+            border:dotted white 1.0pt;
+            padding:24.0pt 24.0pt 24.0pt 24.0pt;}
+        div.WordSection3
+            {page:WordSection3;}
+        @page WordSection4
+            {size:8.5in 11.0in;
+            margin:.4in .4in .5in .4in;
+            border:dotted white 1.0pt;
+            padding:24.0pt 24.0pt 24.0pt 24.0pt;}
+        div.WordSection4
+            {page:WordSection4;}
+         /* List Definitions */
+        ol
+            {margin-bottom:0in;}
+        ul
+            {margin-bottom:0in;}
+    }
+}
