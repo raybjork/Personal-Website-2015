@@ -14,42 +14,61 @@ body {
           display: inline;
           margin-left: 50px; }
     body .framework .roof {
-      margin: 60px 10% 20px 10%; }
-      body .framework .roof .heading {
-        border-bottom: 1px solid #999; }
-    body .framework .button {
-      background-color: #F0F0F0;
-      border: 1px solid #999;
-      padding: 15px;
-      width: 100px;
-      float: right;
-      margin: 20px 0px; }
+      margin: 50px 10% 20px 10%;
+      border-bottom: 2px solid #999; }
+    body .framework .cellar {
+      border-top: 2px solid #999;
+      margin: 0px 10%; }
+      body .framework .cellar p {
+        margin: 7px 0px 0px 0px; }
     body .framework h1 {
       font-size: 40px;
       line-height: 0px; }
-    body .framework p {
-      font-size: 20px; }
+  body .button {
+    background-color: #F0F0F0;
+    border: 1px solid #999;
+    padding: 15px;
+    float: right; }
   body .content {
+    display: block;
     width: 80%;
-    margin: 0px auto; }
+    margin: 20px auto;
+    border-bottom: 1px dotted #999; }
     body .content .resume {
       margin: 0px auto;
       width: 740px;
       padding-left: 50px;
       white-space: nowrap;
       overflow: hidden; }
+    body .content .sidebar {
+      margin: 0px 15px;
+      float: left; }
+      body .content .sidebar p {
+        margin: 0px 0px 15px 0px;
+        display: table-caption;
+        caption-side: bottom; }
+    body .content .image {
+      display: table; }
+    body .content .plusminus {
+      margin-right: 15px;
+      float: left;
+      border: none;
+      height: 20px; }
     body .content img {
-      max-height: 400px;
       width: auto;
       border: 1px solid #999; }
+    body .content ul {
+      width: 60%;
+      display: table; }
     body .content table {
       margin: 0px auto; }
-      body .content table td {
-        padding: 0px 10px 15px 10px; }
       body .content table img {
-        max-height: 180px;
-        width: auto;
-        border: 1px solid #999; }
+        margin: 0px 10px;
+        height: 175px; }
+      body .content table td {
+        padding-bottom: 8px; }
+      body .content table p {
+        margin: 0px; }
   body a {
     text-decoration: none;
     font-weight: bold;
